@@ -31,3 +31,5 @@ This library will contains the Button component agnostic of any styles which mea
 # Architecture
 
 Explain your choices and anything you would have to do but did not have time
+
+`This is asimple button component exposed with the custom hook to simulate different button states for th user. Everything is customisable and passed down as props from the parent component which is the ThemedButton. Typecasting the ref would be improved if I had the time. Added accessibility as well. I would have added test cases to the component as well.`

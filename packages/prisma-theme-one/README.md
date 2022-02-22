@@ -29,3 +29,5 @@ This library will contains the Button component style accordingly to the Theme 1
 # Architecture
 
 Explain your choices and anything you would have to do but did not have time
+
+`I have created a constant file for the theme values and exported it to the prisma-client. Have enclosed this component (ThemedOneButton) onto the primsa-component. Have used styled compoenents to provide the desired styling to the button based upon the state and customisations. The things I would have improved was add a few test cases to the component.`
