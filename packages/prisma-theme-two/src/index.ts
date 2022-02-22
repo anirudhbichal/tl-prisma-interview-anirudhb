@@ -1,5 +1,5 @@
-// TODO Remove it as it is only for making the library built
-export const Empty = () => {
-    return 'Remove me!'
-  }
-  
+import { TH2 } from './ThemeTwoButton'
+import { PrismaThemeTwo } from './ThemeTwo'
+
+export default TH2
+export { PrismaThemeTwo }

@@ -13,7 +13,7 @@ export const States = (props: StatesProps) => {
     const renderState = (key: string) => {
         const state = states[key]
         return (
-            <Grid item xs={12} md={5}>
+            <Grid item xs={12} md={5} key={`${state.title}-stateval`}>
                 <StatesContext.Provider value={{ state: key }}>
                     <State 
                         title={state.title}

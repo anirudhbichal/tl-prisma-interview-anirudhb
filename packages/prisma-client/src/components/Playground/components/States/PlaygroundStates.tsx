@@ -16,7 +16,7 @@ interface PlaygroundStatesProps {
 
 export const PlaygroundStates = (props: PlaygroundStatesProps) => {
     const { onChange, value } = props
-
+    
     return (
         <Root>
             <Typography variant='h6' align='left'>States</Typography>

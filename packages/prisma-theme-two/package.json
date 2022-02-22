@@ -23,9 +23,9 @@
     "test:watch": "react-scripts test --env=jsdom --passWithNoTests"
   },
   "peerDependencies": {
+    "@tl-prisma/components": "^1.0.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "@tl-prisma/components": "^1.0.0"
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -63,6 +63,7 @@
     "dist"
   ],
   "dependencies": {
-    "@tl-prisma/components": "^1.0.0"
+    "@tl-prisma/components": "^1.0.0",
+    "styled-components": "^5.3.3"
   }
 }

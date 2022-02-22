@@ -12,7 +12,7 @@ function App() {
           theme={TH1Theme} 
           customisations={TH1Customisations}
         >
-          <TH1Button label='Ok' />
+          <TH1Button label='Theme1' />
         </ThemeDemo>
         <ThemeDemo 
           title='Theme 2'
@@ -20,7 +20,7 @@ function App() {
           theme={TH2Theme} 
           customisations={TH2Customisations}
         >
-            <TH2Button label='Ok' />
+            <TH2Button label='Theme2' />
         </ThemeDemo>
       </div>
   );

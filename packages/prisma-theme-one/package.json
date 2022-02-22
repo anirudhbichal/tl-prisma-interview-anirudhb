@@ -63,5 +63,7 @@
     "dist"
   ],
   "dependencies": {
+    "styled-components": "^5.3.3",
+    "@tl-prisma/components": "^1.0.0"
   }
 }

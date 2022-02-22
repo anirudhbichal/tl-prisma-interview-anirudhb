@@ -33,10 +33,10 @@ export const Playground = (props: PlaygroundProps) => {
     }
 
     const renderPreview = () => {
-      return React.Children.toArray(children).map((child: any, index: number) => (
+      return React.Children.map(children, (child: any, index: number) => (
         <Preview key={`preview-${index + 1}`} style={{ margin: '5px',  }}>
           {React.cloneElement(child, {
-            className: `sim-${state}`,
+            className: `${state}`,
             ...customisations,
           })}
         </Preview>
